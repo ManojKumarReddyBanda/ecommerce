@@ -1,0 +1,35 @@
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .items-container .item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .items-container .item h3 {
+    margin-top: 0;
+  }
+  
+  .items-container .item p {
+    margin: 10px 0;
+  }
+  
+  .items-container .item button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .items-container .item button:hover {
+    background-color: #0056b3;
+  }
+  
